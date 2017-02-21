@@ -44,5 +44,8 @@ module.exports = {
       beautify: false,
       dead_code: true
     }),
+	new webpack.ProvidePlugin({
+            "React": "react",
+    }),
   ]
 };

@@ -1,5 +1,5 @@
 {
-  "name": "MyPortfolio",
+  "name": "my_portfolio",
   "version": "0.0.1",
   "description": "Portfolio using MERN stack",
   "main": "src/app.js",

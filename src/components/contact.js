@@ -1,6 +1,6 @@
-import { Component } from 'react';
+import React from 'react';
 
-export default class Contact extends Component {
+export default class Contact extends React.Component {
 	render() {
 		return (
 			<section id="contact">

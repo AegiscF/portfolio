@@ -1,6 +1,6 @@
 import { Component } from 'react';
-import projectPreview from './projectPreview';
-import projects from '../data/projects';
+import skillPreview from './skillPreview';
+import skills from '../data/skills';
 
 export default class IndexPage extends Component {
 	render() {
@@ -8,7 +8,7 @@ export default class IndexPage extends Component {
 			<section className="no-padding" id="portfolio">
 				<div className="container-fluid">
 					<div className="row no-gutter popup-gallery">
-						{projects.map(projectData => <projectPreview key={projectData.id} {...projectData} />)}
+						{skills.map(skillData => <skillPreview key={skillData.id} {...skillData} />)}
 					</div>
 				</div>
 			</section>
